@@ -1,0 +1,50 @@
+#nameInput {
+  background-image: url('./search-icon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  border: 1px solid #ddd;
+  font-family: Montserrat , sans-serif;
+  font-size: 14px;
+  margin-bottom: 12px;
+  outline: transparent;
+  padding: 12px 20px 12px 40px;
+  width: 100%;
+}
+
+#asc-sort, #desc-sort {
+  font-family: Montserrat , sans-serif;
+  font-size: 14px;
+  margin-bottom: 12px;
+  outline: transparent;
+}
+
+#desc-sort {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+#filter-column, #filter-comparison, #filter-value, #filter-button, #sort-column {
+  border: 1px solid #ddd;
+  font-family: Montserrat , sans-serif;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-right: 8px;
+  outline: transparent;
+  padding: 5px;
+}
+
+#filter-button, #remove-filter-button, #sort-button {
+  border: 1px solid #ddd;
+  font-family: Montserrat , sans-serif;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-right: 8px;
+  outline: transparent;
+  padding: 5px 15px;
+}
+
+#filter-button:hover, #remove-filter-button:hover, #sort-button:hover {
+  background-color: rgb(185, 185, 185);
+  cursor: pointer;
+}
